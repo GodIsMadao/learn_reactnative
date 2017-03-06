@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Running CLI with local modifications
 
 React Native is distributed as two npm packages, `react-native-cli` and `react-native`. The first one is a lightweight package that should be installed globally (`npm install -g react-native-cli`), while the second one contains the actual React Native framework code and is installed locally into your project when you run `react-native init`.
@@ -120,3 +121,7 @@ If you don't want to install Sinopia you could still test changes done on the cl
 Note that `REACT_NATIVE_GITHUB` should point to the directory where you have a checkout.
 
 Also, if the changes you're making get triggered when running `react-native init AwesomeProject` you will want to tweak the global installed `react-native-cli` library to install the local checkout instead of downloading the module from npm. To do so just change this [line](https://github.com/facebook/react-native/blob/master/react-native-cli/index.js#L191) and refer the local checkout instead.
+=======
+# learn_reactnative
+learn react native 
+>>>>>>> 784820312630512c42b9b7015081a561c17b1a7c
