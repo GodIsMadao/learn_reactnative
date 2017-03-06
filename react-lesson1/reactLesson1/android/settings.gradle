@@ -1,0 +1,3 @@
+rootProject.name = 'reactLesson1'
+
+include ':app'
